@@ -30,5 +30,6 @@ spec:
     - group: core
       jsonPointers:
       - /data/my-password
+      namespace: example02
       kind: Secret
       name: example-secret
