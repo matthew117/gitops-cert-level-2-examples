@@ -27,7 +27,7 @@ spec:
       kind: Deployment
       jsonPointers:
       - /metadata/annotations/creation
-    - group: core
+    - group: ""
       jsonPointers:
       - /data/my-password
       namespace: example02
